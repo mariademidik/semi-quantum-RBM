@@ -4,7 +4,7 @@ using .qbm: train
 using Printf
 
 dataset = "bas" #  "bas", "parity", "cardinality", "on2"
-model = "rbm" # "rbm", "sqrbm-XZ", "srtbm-XYZ"
+model = "rbm" # "rbm", "sqrbm-XZ", "sqrbm-XYZ"
 num_visible = 4
 num_hidden = 2
 runID = 1
